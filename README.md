@@ -1,7 +1,7 @@
 # 🔍 Intelligent RAG-Based Document Retrieval System
 
 ## 📌 Overview
-This project implements a **Retrieval-Augmented Generation (RAG) system** for intelligent document search and retrieval. It enables users to extract, preprocess, store, and query text from **PDFs, CSVs, voice files, and web links**, leveraging a **vector database and LLMs** for accurate responses.
+This project implements a **Retrieval-Augmented Generation (RAG) system** for intelligent document search and retrieval. It enables users to extract, preprocess, store, and query text from **PDFs, CSVs, voice files, web links and Youtube videos**, leveraging a **vector database and LLMs** for accurate responses.
 
 ## 🏗️ Architecture
 ```
@@ -26,7 +26,9 @@ This project implements a **Retrieval-Augmented Generation (RAG) system** for in
  ┃ ┣ 📜 extract_pdfs.py
  ┃ ┣ 📜 extract_csvs.py
  ┃ ┣ 📜 extract_voice.py
- ┃ ┗ 📜 extract_web.py
+ ┃ ┣ 📜 extract_web.py 
+ ┃ ┗ 📜 extract_yt_videos.py
+ 
  ┣ 📂 vector_store
  ┃ ┣ 📜 faiss_store.py
  ┃ ┗ 📜 pinecone_store.py
