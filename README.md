@@ -59,7 +59,7 @@ This project implements a **Retrieval-Augmented Generation (RAG) system** for in
 ## 🛠️ Installation
 ```bash
 # Clone the repository
-git clone https://github.com/your-repo/rag-system.git
+git clone https://github.com/butterpaneermasala/hacko-tech
 cd rag-system
 
 # Create a virtual environment
