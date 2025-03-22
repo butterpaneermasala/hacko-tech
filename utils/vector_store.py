@@ -238,7 +238,9 @@ class VectorStore:
                         if not text:
                             continue
                             
-                        text_lower = text.lower()
+                        text_lower = text.page_content.lower() if hasattr(text, 'page_content') else text.lower()
+
+
                         
                         # Advanced keyword scoring with TF-IDF-like weighting
                         # Count keyword occurrences and weight by importance
